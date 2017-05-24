@@ -1,0 +1,4 @@
+words = ['first', 'second', 'third', 'fourth', 'fifth', 'sixth']
+
+def reverse
+ words.reverse_each {|x| print x," "}

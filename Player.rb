@@ -12,7 +12,7 @@ end
 def collect_treasure
   @gold_coins += 1
 if @gold_coins % 10 == 0
-  return level_up
+  level_up
 end
 end
 
